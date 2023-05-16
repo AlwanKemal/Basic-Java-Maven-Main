@@ -15,7 +15,14 @@ public class Driver {
 		counter.decrement();
 		
 		System.out.println("Count:" + counter.getCount());
-		
-	}
 
+		System.out.println("Executing additional program...");
+		
+        additionalProgram();
+    }
+
+    public static void additionalProgram() {
+        // Tambahkan logika program tambahan di sini
+        System.out.println("Additional program executed!");
+    }
 }
